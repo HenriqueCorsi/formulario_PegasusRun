@@ -59,19 +59,17 @@ input{
 @media screen and (max-width:400px){
     .formulario{
         width: 70%;
-        height: 720px;
-        margin-top: 40px;
+        height: 620px;
+        margin-top: 60px;
         margin-bottom: 50px;
     }
 
     .image__pegasus{
         width: 50%;
     }
-    
-    .dados{
-        margin: auto;
-        padding: 7px;
-        width: 90%;
+
+    .box__dados{
+        font-size: 15px;
     }
 
     input{
@@ -82,6 +80,6 @@ input{
         width: 80%;
         margin: auto;
         padding: 18px;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }
