@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Pegasus Run</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+</head>
+<body>
+    <form class="formulario">
+        <img class="image__pegasus" src="./assets/img/logo-pegasusrun.png" alt="">
+       <div class="dados">
+            <label for="nome" class="box__dados">Nome Completo</label>
+            <input type="text" id="nome" class="box__dados" required>
+       </div>
+
+       <div class="dados">
+            <label for="data" class="box__dados">Data de Nascimento</label>
+            <input type="date" id="data, data__nasci" class="box__dados" required>
+       </div>
+
+       <div class="dados">
+            <label for="tel" class="box__dados">Número de Telefone</label>
+            <input type="tel" id="tel" class="box__dados" required placeholder="9xxxx-xxxx">
+       </div>
+
+       <div class="dados">
+            <label for="equipe" class="box__dados">Nome da Equipe</label>
+            <input type="text" id="equipe" class="box__dados" required>
+       </div>
+
+       <div class="dados">
+            <label for="insta" class="box__dados">Seu Instagram</label>
+            <input type="text" id="insta" class="box__dados" placeholder="@exemplo">
+       </div>
+
+       <input class="enviar" type="submit" value="Enviar">
+    </form>
+</body>
+</html>
