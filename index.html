@@ -12,34 +12,36 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
 </head>
 <body>
-    <form class="formulario">
+    <form class="formulario" id="form">
        <img class="image__pegasus" src="./assets/img/logo-pegasusrun.png" alt="">
        <div class="dados">
             <label for="nome" class="box__dados">Nome Completo</label>
-            <input type="text" id="nome" class="box__dados" required>
+            <input type="text" id="nome" name="Nome" class="box__dados" required>
        </div>
 
        <div class="dados">
             <label for="data" class="box__dados">Data de Nascimento</label>
-            <input type="date" id="data, data__nasci" class="box__dados" required>
+            <input type="date" id="data" name="Data_de_nascimento" class="box__dados" required>
        </div>
 
        <div class="dados">
             <label for="tel" class="box__dados">Número de Telefone</label>
-            <input type="tel" id="tel" class="box__dados" required placeholder="9xxxx-xxxx">
+            <input type="tel" id="tel" class="box__dados" name="Telefone" required placeholder="9xxxx-xxxx">
        </div>
 
        <div class="dados">
             <label for="equipe" class="box__dados">Nome da Equipe</label>
-            <input type="text" id="equipe" class="box__dados" required>
+            <input type="text" id="equipe" class="box__dados" name="Nome_da_equipe" required>
        </div>
 
        <div class="dados">
             <label for="insta" class="box__dados">Seu Instagram</label>
-            <input type="text" id="insta" class="box__dados" placeholder="@exemplo">
+            <input type="text" id="insta" class="box__dados" name="Instagram" placeholder="@exemplo">
        </div>
 
-       <input class="enviar" type="submit" value="Enviar">
+       <button type="submit" class="enviar">Enviar</button>
     </form>
+    
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
