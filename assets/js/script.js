@@ -19,7 +19,7 @@ const handleSubmit = (event) => {
     const equipe = document.getElementById('equipe').value;
     const instagram = document.getElementById('insta').value;
     
-    fetch('https://api.sheetmonkey.io/form/ptA4mrNH7ahPoQMNbWuRPN', {
+    fetch('https://api.sheetmonkey.io/form/bKT5QacEjaNJkYuVfxt19q', {
     method: 'post',
     headers: {
         'Accept': 'application/json',
