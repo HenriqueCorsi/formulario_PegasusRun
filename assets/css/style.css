@@ -73,7 +73,7 @@ input{
 }
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:1000px){
     .formulario{
         width: 80%;
         height: 650px;
